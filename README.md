@@ -22,10 +22,10 @@ mbed import https://gitlab.com/catie_6tron/zest-display-lcd-simple-demo.git zest
 
 Alternatively:
 
-- Clone to "zest-display-lcd-demo" and enter it:
+- Clone to "zest-display-lcd-simple-demo" and enter it:
   ```shell
-  git clone https://gitlab.com/catie_6tron/zest-display-lcd-simple-demo.git zest-display-lcd-demo
-  cd zest-display-lcd-demo
+  git clone https://gitlab.com/catie_6tron/zest-display-lcd-simple-demo.git zest-display-lcd-simple-demo
+  cd zest-display-lcd-simple-demo
   ```
 
 - Deploy software requirements with:
