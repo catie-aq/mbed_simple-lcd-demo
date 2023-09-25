@@ -56,7 +56,7 @@ int main()
 
     // Add label
     lv_obj_t *label = lv_label_create(lv_scr_act());
-    lv_label_set_text(label, "Hello!");
+    lv_label_set_text(label, "Hello from 6TRON!");
     lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
 
     while (true) {
