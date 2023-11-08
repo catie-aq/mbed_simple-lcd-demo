@@ -61,8 +61,8 @@ void my_touchpad_read(lv_indev_drv_t *indev, lv_indev_data_t *data)
     touch.read_touch(&x, &y, &z1, &z2);
     if (z1 > 0) { // Touch detected
         data->state = LV_INDEV_STATE_PRESSED;
-        data->point.x = (int16_t)(((float)x / 4096) * screenWidth);
-        data->point.y = (int16_t)(((float)y / 4096) * screenHeight);
+        data->point.x = screenWidth - (int16_t)(((float)x / 4096) * screenWidth);
+        data->point.y = screenHeight - (int16_t)(((float)y / 4096) * screenHeight);
     } else {
         data->state = LV_INDEV_STATE_RELEASED;
     }
